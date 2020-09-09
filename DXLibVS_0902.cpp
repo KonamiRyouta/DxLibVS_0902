@@ -50,7 +50,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		DrawExtendGraph(0, 0, GAME_WIDTH, GAME_HEIGHT, handle, FALSE);
 
 		DrawString(0, 0, "動画を再生しています・・・", GetColor(255, 255, 255));
-		Drawstring(0,20,"猫の動画",GetColor(255,255,255));
+		DrawString(0,20,"猫の動画",GetColor(255,255,255));
 		ScreenFlip();		//モニタのリフレッシュレートの速さで裏画面を再描画
 	}
 
